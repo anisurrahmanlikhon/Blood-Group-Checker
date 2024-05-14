@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.blood-group-button {
+  background-color: #ff0000; /* Red color */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Makes it circular */
+  width: 150px;
+  height: 150px;
+  font-size: 24px;
+  line-height: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #dc3545; /* Red color for header */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative; /* Required for positioning the GitHub button */
+}
+
+.github-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  background-color: #343a40; /* Dark grey color for footer */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.antigen-label {
+  color: red; /* Red color for labels */
+  font-weight: bold; /* Bold font weight */
+}
+
+.blood-select {
+  color: red; /* Red color for dropdown menu text */
+}
+
+.antigen-image {
+  width: 70px; /* Width of the image */
+  height: 40px; /* Height of the image */
+  vertical-align: middle; /* Align the image vertically */
+  margin-right: 5px; /* Add a small margin to the right of the image */
+}
+
+.antigen-label, .blood-select {
+  font-size: 16px; /* Font size of labels and dropdown text */
+}
