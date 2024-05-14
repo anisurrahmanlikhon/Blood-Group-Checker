@@ -5,21 +5,21 @@ function checkBloodGroup() {
   var bloodGroup = "";
 
   if (antigenA === "রক্ত অধঃক্ষেপিত" && antigenB === "রক্ত অধঃক্ষেপিত" && antigenD === "রক্ত অধঃক্ষেপিত") {
-    bloodGroup = "AB+ (পজিটিভ)";
+    bloodGroup = "AB+";
   } else if (antigenA === "রক্ত স্বাভাবিক" && antigenB === "রক্ত অধঃক্ষেপিত" && antigenD === "রক্ত অধঃক্ষেপিত") {
-    bloodGroup = "B+ (পজিটিভ)";
+    bloodGroup = "B+";
   } else if (antigenA === "রক্ত অধঃক্ষেপিত" && antigenB === "রক্ত স্বাভাবিক" && antigenD === "রক্ত অধঃক্ষেপিত") {
-    bloodGroup = "A+ (পজিটিভ)";
+    bloodGroup = "A+";
   } else if (antigenA === "রক্ত স্বাভাবিক" && antigenB === "রক্ত স্বাভাবিক" && antigenD === "রক্ত অধঃক্ষেপিত") {
-    bloodGroup = "O+ (পজিটিভ)";
+    bloodGroup = "O+";
   } else if (antigenA === "রক্ত অধঃক্ষেপিত" && antigenB === "রক্ত অধঃক্ষেপিত" && antigenD === "রক্ত স্বাভাবিক") {
-    bloodGroup = "AB- (নেগেটিভ)";
+    bloodGroup = "AB-";
   } else if (antigenA === "রক্ত স্বাভাবিক" && antigenB === "রক্ত অধঃক্ষেপিত" && antigenD === "রক্ত স্বাভাবিক") {
-    bloodGroup = "B- (নেগেটিভ)";
+    bloodGroup = "B-";
   } else if (antigenA === "রক্ত অধঃক্ষেপিত" && antigenB === "রক্ত স্বাভাবিক" && antigenD === "রক্ত স্বাভাবিক") {
-    bloodGroup = "A- (নেগেটিভ)";
+    bloodGroup = "A-";
   } else if (antigenA === "রক্ত স্বাভাবিক" && antigenB === "রক্ত স্বাভাবিক" && antigenD === "রক্ত স্বাভাবিক") {
-    bloodGroup = "O- (নেগেটিভ)";
+    bloodGroup = "O-";
   }
 
   document.getElementById("result").innerHTML = "<button class='blood-group-button'>" + bloodGroup + "</button>";
